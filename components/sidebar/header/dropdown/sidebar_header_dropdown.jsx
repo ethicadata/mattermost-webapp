@@ -675,10 +675,11 @@ export default class SidebarHeaderDropdown extends React.PureComponent {
                     {helpLink}
                     {keyboardShortcuts}
                     {reportLink}
-                    {nativeAppLink}
-                    {about}
-                    {logoutDivider}
-                    {logout}
+                    {/* {nativeAppLink} */}
+                    {/* {about} */}
+                    {/* Faham: user should not be able to logout from chat webapp */}
+                    {/* {logoutDivider} */}
+                    {/* {logout} */}
                     {teamMembersModal}
                     <TeamSettingsModal
                         show={this.state.showTeamSettingsModal}

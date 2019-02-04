@@ -516,32 +516,6 @@ export default class SidebarRightMenu extends React.PureComponent {
                         <li className='divider'/>
                         {helpLink}
                         {reportLink}
-                        {nativeAppLink}
-                        <li>
-                            <a
-                                href='#'
-                                onClick={this.handleAboutModal}
-                            >
-                                <i className='icon fa fa-info'/>
-                                <FormattedMessage
-                                    id='navbar_dropdown.about'
-                                    defaultMessage='About Mattermost'
-                                />
-                            </a>
-                        </li>
-                        <li className='divider'/>
-                        <li>
-                            <a
-                                href='#'
-                                onClick={this.handleEmitUserLoggedOutEvent}
-                            >
-                                <i className='icon fa fa-sign-out'/>
-                                <FormattedMessage
-                                    id='sidebar_right_menu.logout'
-                                    defaultMessage='Logout'
-                                />
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <AboutBuildModal

@@ -88,7 +88,7 @@ export default [
                 defaultMessage='Enterprise Edition is recommended to ensure optimal operation and reliability. [Learn more](!https://mattermost.com/performance).'
             />
         ),
-        allowForget: false,
+        allowForget: true,
         show: (serverVersion, config, license, analytics) => {
             const USERS_THRESHOLD = 10000;
 
